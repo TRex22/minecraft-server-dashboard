@@ -1,0 +1,24 @@
+﻿<metro:Window x:Class="NewTaskDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:metro="http://schemas.codeplex.com/elysium"
+    xmlns:params="http://schemas.codeplex.com/elysium/params"
+    params:Manager.Theme="Light"
+    Title="Add a new task" Height="358" Width="335">
+    <Grid>
+        <GroupBox Header="Trigger" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="85" Width="307">
+            <DockPanel>
+                <ComboBox DockPanel.Dock="Left" HorizontalAlignment="Left" VerticalAlignment="Stretch" Text="Every"/>
+                <ComboBox DockPanel.Dock="Left" HorizontalAlignment="Left" VerticalAlignment="Stretch" Text="15"/>
+                <ComboBox DockPanel.Dock="Left" HorizontalAlignment="Left" VerticalAlignment="Stretch" Text="Minutes"/>
+            </DockPanel>
+        </GroupBox>
+        <GroupBox Header="Action" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Height="136" Width="307">
+            <DockPanel>
+                <ComboBox DockPanel.Dock="Left" HorizontalAlignment="Left" VerticalAlignment="Stretch" Text="Server Actions"/>
+            </DockPanel>
+        </GroupBox>
+        <Button Content="Add task" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="75"/>
+
+    </Grid>
+</metro:Window>

@@ -66,6 +66,8 @@ Module MyApp
 
     Public navpageConsole As PageConsole
 
+    Public navpageScheduler As PageScheduler
+
     Public navPageCBconfig As PageConfig
 
     ' Exit the app upon the exit of the server process, where elected by the user. (See the form: Screens -> Screens -> ExitWarning.xaml)

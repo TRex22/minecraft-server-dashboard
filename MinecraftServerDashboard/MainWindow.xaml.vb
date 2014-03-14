@@ -24,6 +24,7 @@ Class MainWindow
         MyApp.navpagePlayers = New PagePlayers
         MyApp.navpageWorld = New pageWorld
         MyApp.navpageConsole = New PageConsole
+        MyApp.navpageScheduler = New PageScheduler
         MyApp.navPageCBconfig = New PageConfig
 
         ' Add each page to their respective tabpage
@@ -31,6 +32,7 @@ Class MainWindow
         FramePlayers.Content = navpagePlayers
         FrameWorld.Content = navpageWorld
         FrameConsole.Content = navpageConsole
+        FrameScheduler.Content = navpageScheduler
         FrameConfigHome.Content = navPageCBconfig
 
         ' Set up data bindings
